@@ -4,10 +4,10 @@ using HarmonyLib;
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace TemplateMod
+namespace CyborgMod
 {
     [SilkMod("Silk Mod", new[] { "Abstractmelon" }, "1.0.0", "0.6.1", "silk-mod", 1)]
-    public class TemplateMod : SilkMod
+    public class CyborgMod : SilkMod
     {
         public const string ModId = "silk-mod";
 
@@ -48,7 +48,7 @@ namespace TemplateMod
         [HarmonyPrefix]
         public static bool MakeItChristmas(ref bool __result)
         {
-            __result = Config.GetModConfigValue(TemplateMod.ModId, "enableChristmas", true);
+            __result = Config.GetModConfigValue(CyborgMod.ModId, "enableChristmas", true);
             return false;
         }
     }

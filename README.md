@@ -1,4 +1,4 @@
-# SilkTemplateMod
+# SilkCyborgMod
 
 A template mod for [SpiderHeck](https://store.steampowered.com/app/1329500/SpiderHeck/) using [Silk](https://github.com/SilkModding/Silk).
 
